@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="სემანტიკური და არასემანტიკური HTML-ის მაგალით">
+    <meta name="author" content="მიშო ქობალია">
+    <meta property="og:image" content="images/icon.svg">
+    <meta property="og:description" content="სემანტიკური და არასემანტიკური HTML-ის მაგალით">
+    <meta property="og:title" content="სემანტიკური და არასემანტიკური HTML-ის მაგალით">
+    <link rel="icon" href="images/icon.svg">
+    <title>სემანტიკური და არასემანტიკური HTML-ის მაგალით</title>
+</head>
+
+<body>
+    <header>
+        <h1>სემანტიკური HTML-ის სწავლა</h1>
+    </header>
+    <main>
+        <section>
+            <h2>არასემანტიკური Div ელემენტი</h2>
+            <p>&lt;div&gt; ელემენტი გამოიყენება ბლოკური შინაარსის ჯგუფისთვის, თუმცა მას საკუთარი მნიშვნელობა არ გააჩნია.
+            </p>
+        </section>
+        <section>
+            <h2>ცხრილებისა და ფორმების გამოყენება</h2>
+            <p>
+                <b>მომხმარებელთა ინფორმაციის ცხრილი</b>
+            </p>
+        </section>
+        <section>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>სახელი</th>
+                        <th>ელ.ფოსტა</th>
+                        <th>ასაკი</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>გიორგი ბერიძე</td>
+                        <td>giorgi@example.com</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>ლიკა დევდარიანი</td>
+                        <td>lika@example.com</td>
+                        <td>32</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <br>
+        
+        <section>
+            <b>კონტაქტის ფორმა</b>
+            <br><br>
+            <label for="Name">სახელი:</label> <br>
+            <input type="text" id="Name">
+            <br><br>
+            <label for="Mail">ელ.ფოსტა:</label> <br>
+            <input type="email" id="Mail">
+            <br><br>
+            <label for="Age">ასაკი:</label> <br>
+            <input type="number" id="Age">
+            <br><br>
+            <input type="submit" value="გაგზავნა">
+        </section>
+    </main>
+    <br><br><br>
+    <footer>
+        <p>&copy; 2024 სემანტიკური და არასემანტიკური HTML-ის მაგალით</p>
+    </footer>
+</body>
+
+</html>
